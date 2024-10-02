@@ -94,6 +94,7 @@
     width: 100%;
   }
 }
+/*  */
 /* factor*/
 .factor_bg {
   background-image: url(../public/assets/homepage/Factorbg.png);
@@ -126,7 +127,6 @@
   background-position: center center;
   background-size: cover;
 }
-
 
 /* Add this CSS to your stylesheet or component's styles */
 @media (max-width: 640px) {
