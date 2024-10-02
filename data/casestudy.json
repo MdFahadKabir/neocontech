@@ -1,0 +1,22 @@
+{
+  "caseStudy": [
+    {
+      "id": 1,
+      "name": "Case Study 1",
+      "title": "Project Alpha",
+      "description": "<p>This is the description for Case Study 1</p>",
+      "subDesc": "<p>Short description for Case Study 1</p>",
+      "tags": "[{\"value\": \"Finance\"}, {\"value\": \"Tech\"}]",
+      "image": "/assets/service/service1.png"
+    },
+    {
+      "id": 2,
+      "name": "Case Study 2",
+      "title": "Project Beta",
+      "description": "<p>This is the description for Case Study 2</p>",
+      "subDesc": "<p>Short description for Case Study 2</p>",
+      "tags": "[{\"value\": \"Health\"}, {\"value\": \"Wellness\"}]",
+      "image": "/assets/service/service1.png"
+    }
+  ]
+}

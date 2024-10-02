@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+/* normal */
+.font-normal {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+}
+/* Medium */
+.font-medium {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+}
+/* Semibold */
+.font-semibold {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+}
+/* Bold */
+.font-bold {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+}
+
+/* Extrabold */
+.font-extrabold {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+}
+/* Black */
+.font-black {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 900;
+}
+
+/* hero section home page */
+.landing_bg {
+  background-image: url(../public/assets/homepage/largeheroasset.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+}
+.company_bg {
+  background-image: url(../public/assets/company/companybg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  border-radius: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .landing_bg {
+    background-image: url(../public/assets/homepage/smalllandingheroasset.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .company_bg {
+    background-image: url(../public/assets/company/companybg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+  }
+}
+/* footer */
+.footer_bg {
+  background-image: url(../public/assets/footer/largefooterasset.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  /* border-radius: 30px; */
+  height: 100%;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .footer_bg {
+    background-image: url(../public/assets/footer/smallfooterasset.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+/* factor*/
+.factor_bg {
+  background-image: url(../public/assets/homepage/Factorbg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+/* factor*/
+.feedback_bg {
+  background-image: url(../public/assets/homepage/feedbackbg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.feedback_bg_b {
+  background-image: url(../public/assets/homepage/feedbackbg_b.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.case_bg {
+  background-image: url(../public/assets/homepage/casestudybtnbg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.service_bg {
+  background-image: url(../public/assets/service/servicecardbg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+/* Add this CSS to your stylesheet or component's styles */
+@media (max-width: 640px) {
+  /* Styles for screen width up to 640px (typical mobile devices) */
+  .description-content {
+    /* Add your mobile-responsive styles here */
+    /* For example, you can set font size, padding, or margins specifically for mobile devices */
+    font-size: 14px;
+    padding: 10px;
+    margin: 0;
+  }
+}
