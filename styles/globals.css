@@ -96,12 +96,12 @@
 }
 /*  */
 /* factor*/
-.factor_bg {
+/* .factor_bg {
   background-image: url(../public/assets/homepage/Factorbg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-}
+} */
 /* factor*/
 .feedback_bg {
   background-image: url(../public/assets/homepage/feedbackbg.png);
