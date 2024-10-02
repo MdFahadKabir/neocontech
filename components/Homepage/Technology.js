@@ -15,6 +15,12 @@ const tabs = [
       { src: C1, alt: "C1" },
       { src: C, alt: "C" },
       { src: Python, alt: "Python" },
+      { src: C1, alt: "C1" },
+      { src: C, alt: "C" },
+      { src: Python, alt: "Python" },
+      { src: C1, alt: "C1" },
+      { src: C, alt: "C" },
+      { src: Python, alt: "Python" },
     ],
   },
   {
@@ -22,11 +28,25 @@ const tabs = [
     content: [
       { src: JS, alt: "JavaScript" },
       { src: C1, alt: "C" },
+      { src: JS, alt: "JavaScript" },
+      { src: C1, alt: "C" },
+      { src: JS, alt: "JavaScript" },
+      { src: C1, alt: "C" },
+      { src: JS, alt: "JavaScript" },
+      { src: C1, alt: "C" },
     ],
   },
   {
     title: "API",
-    content: [{ src: Java, alt: "Java" }],
+    content: [
+      { src: Java, alt: "Java" },
+      { src: Java, alt: "Java" },
+      { src: Java, alt: "Java" },
+      { src: Java, alt: "Java" },
+      { src: Java, alt: "Java" },
+      { src: Java, alt: "Java" },
+      { src: Java, alt: "Java" },
+    ],
   },
 ];
 function Technology() {

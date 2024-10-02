@@ -152,6 +152,24 @@ const caseStudyData = [
     tags: [{ value: "Health" }, { value: "Wellness" }],
     image: "/assets/service/service1.png",
   },
+  {
+    id: 3,
+    name: "Case Study 3",
+    title: "Project Alpha",
+    description: "<p>This is the description for Case Study 1</p>",
+    subDesc: "<p>Short description for Case Study 1</p>",
+    tags: [{ value: "Finance" }, { value: "Tech" }],
+    image: "/assets/service/service1.png",
+  },
+  {
+    id: 4,
+    name: "Case Study 4",
+    title: "Project Beta",
+    description: "<p>This is the description for Case Study 2</p>",
+    subDesc: "<p>Short description for Case Study 2</p>",
+    tags: [{ value: "Health" }, { value: "Wellness" }],
+    image: "/assets/service/service1.png",
+  },
 ];
 
 function CaseStudy() {
@@ -223,7 +241,7 @@ function CaseStudy() {
               </Splide>
             </div>
             <div className="w-2/12 xsm:w-full sm:w-full xsm:mt-5 sm:mt-5">
-              <Link href="/casestudy">
+              <Link href="/">
                 <div className="case_bg rounded-3xl">
                   <div className="text-sm text-ntl_white px-5 pb-10 pt-40 2xl:pt-44 2xl:pb-5 xsm:pt-20 sm:pt-5">
                     <p>click here to</p>
